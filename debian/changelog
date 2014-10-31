@@ -1,5 +1,5 @@
-ruby-d3-rails (3.4.13-1) UNRELEASED; urgency=medium
+ruby-d3-rails (3.4.13-1) unstable; urgency=medium
 
-  * Initial release (Closes: #nnnn)
+  * Initial release (Closes: #767503)
 
- -- Balasankar C <balasankarc@autistici.org>  Fri, 31 Oct 2014 20:09:30 +0530
+ -- Balasankar C <balasankarc@autistici.org>  Fri, 31 Oct 2014 18:55:45 +0530
