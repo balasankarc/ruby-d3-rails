@@ -1,0 +1,120 @@
+--- !ruby/object:Gem::Specification
+name: d3_rails
+version: !ruby/object:Gem::Version
+  version: 3.4.13
+platform: ruby
+authors:
+- Michael Bostock
+- Han Kang
+- Cynthia Kiser
+- Byron Anderson
+- Johnathan Pulos
+autorequire: 
+bindir: bin
+cert_chain: []
+date: 2014-10-29 00:00:00.000000000 Z
+dependencies:
+- !ruby/object:Gem::Dependency
+  name: railties
+  requirement: !ruby/object:Gem::Requirement
+    requirements:
+    - - ">="
+      - !ruby/object:Gem::Version
+        version: 3.1.0
+  type: :runtime
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    requirements:
+    - - ">="
+      - !ruby/object:Gem::Version
+        version: 3.1.0
+- !ruby/object:Gem::Dependency
+  name: bundler
+  requirement: !ruby/object:Gem::Requirement
+    requirements:
+    - - ">="
+      - !ruby/object:Gem::Version
+        version: 1.0.0
+  type: :development
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    requirements:
+    - - ">="
+      - !ruby/object:Gem::Version
+        version: 1.0.0
+- !ruby/object:Gem::Dependency
+  name: rails
+  requirement: !ruby/object:Gem::Requirement
+    requirements:
+    - - ">="
+      - !ruby/object:Gem::Version
+        version: '3.1'
+  type: :development
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    requirements:
+    - - ">="
+      - !ruby/object:Gem::Version
+        version: '3.1'
+- !ruby/object:Gem::Dependency
+  name: pry
+  requirement: !ruby/object:Gem::Requirement
+    requirements:
+    - - ">="
+      - !ruby/object:Gem::Version
+        version: '0'
+  type: :development
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    requirements:
+    - - ">="
+      - !ruby/object:Gem::Version
+        version: '0'
+description: Gem installation of javascript framework for data visualization, D3
+email:
+- han@logicallsat.com
+executables: []
+extensions: []
+extra_rdoc_files: []
+files:
+- ".gitignore"
+- Gemfile
+- LICENSE
+- MIT_LICENSE
+- README.md
+- Rakefile
+- app/assets/javascripts/d3.js
+- app/assets/javascripts/d3.min.js
+- app/assets/javascripts/d3.v3.js
+- app/assets/javascripts/d3.v3.min.js
+- app/assets/stylesheets/.gitkeep
+- d3_rails.gemspec
+- lib/d3_rails.rb
+- lib/d3_rails/engine.rb
+- lib/d3_rails/version.rb
+- tasks/gem.thor
+homepage: https://github.com/logical42/d3_rails
+licenses:
+- MIT
+metadata: {}
+post_install_message: 
+rdoc_options: []
+require_paths:
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement
+  requirements:
+  - - ">="
+    - !ruby/object:Gem::Version
+      version: '0'
+required_rubygems_version: !ruby/object:Gem::Requirement
+  requirements:
+  - - ">="
+    - !ruby/object:Gem::Version
+      version: '0'
+requirements: []
+rubyforge_project: d3_rails
+rubygems_version: 2.2.2
+signing_key: 
+specification_version: 4
+summary: D3 automated install for Rails 3.1+
+test_files: []
