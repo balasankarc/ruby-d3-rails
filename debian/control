@@ -8,14 +8,14 @@ Standards-Version: 3.9.6
 Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-d3-rails.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ruby-extras/ruby-d3-rails.git;a=summary
 Homepage: https://github.com/logical42/d3_rails
-Testsuite: autopkgtest
+Testsuite: autopkgtest-pkg-ruby
 XS-Ruby-Versions: all
 
 Package: ruby-d3-rails
 Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
 Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter, ruby-railties, libjs-d3
-Description: Gem installation of javascript framework for data visualization, D3
+Description: gem installation of javascript framework for data visualization, D3
  Gem installation of javascript framework for data visualization, D3. D3 is a 
  small, free JavaScript library for manipulating HTML documents based on data. 
  D3 can help you quickly visualize your data as HTML or SVG, handle 
