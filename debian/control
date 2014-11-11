@@ -14,7 +14,7 @@ XS-Ruby-Versions: all
 Package: ruby-d3-rails
 Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
-Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter, ruby-railties
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter, ruby-railties, libjs-d3
 Description: Gem installation of javascript framework for data visualization, D3
  Gem installation of javascript framework for data visualization, D3. D3 is a 
  small, free JavaScript library for manipulating HTML documents based on data. 
