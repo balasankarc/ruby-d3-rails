@@ -1,4 +1,4 @@
-ruby-d3-rails (3.4.13-1) unstable; urgency=medium
+ruby-d3-rails (3.4.13+dfsg-1) unstable; urgency=medium
 
   * Initial release (Closes: #767503)
 
