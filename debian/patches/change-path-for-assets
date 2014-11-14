@@ -1,0 +1,21 @@
+Description: change path for assets
+ This patch is debian specific
+ .
+ ruby-d3-rails (3.4.13+dfsg-1) unstable; urgency=medium
+ .
+   * Initial release (Closes: #767503)
+Author: Balasankar C <balasankarc@autistici.org>
+Bug-Debian: https://bugs.debian.org/767503
+
+--- ruby-d3-rails-3.4.13+dfsg.orig/lib/d3_rails/engine.rb
++++ ruby-d3-rails-3.4.13+dfsg/lib/d3_rails/engine.rb
+@@ -1,6 +1,7 @@
+ module D3Rails
+   module Rails
+     class Engine < ::Rails::Engine
++        config.root = '/usr/share/ruby-d3-rails'
+     end
+   end
+-end
+\ No newline at end of file
++end
