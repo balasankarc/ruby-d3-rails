@@ -1,0 +1,37 @@
+#!/bin/sh
+
+exec 2>&1
+
+set -ex
+
+cd $ADTTMP
+
+rails new sampleapp
+
+cd sampleapp
+
+tee --append Gemfile <<EOF
+gem "d3_rails"
+EOF
+
+bundle --local
+
+tee app/assets/javascripts/application.js <<EOF
+//= require d3
+EOF
+
+rails generate controller home index
+
+tee config/routes.rb <<EOF
+Rails.application.routes.draw do
+  root 'home#index'
+end
+EOF
+
+rails console <<EOF
+File.open('status.txt', 'w') do |f|
+  f.puts(app.get('/'))
+end
+EOF
+
+test "$(cat status.txt)" -eq 200

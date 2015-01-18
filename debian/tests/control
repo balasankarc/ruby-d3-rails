@@ -1,0 +1,2 @@
+Tests: integration
+Depends: @, rails

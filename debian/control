@@ -8,7 +8,7 @@ Standards-Version: 3.9.6
 Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-d3-rails.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ruby-extras/ruby-d3-rails.git;a=summary
 Homepage: https://github.com/logical42/d3_rails
-Testsuite: autopkgtest-pkg-ruby
+Testsuite: autopkgtest
 XS-Ruby-Versions: all
 
 Package: ruby-d3-rails
