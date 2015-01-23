@@ -1,7 +1,7 @@
 --- !ruby/object:Gem::Specification
 name: d3_rails
 version: !ruby/object:Gem::Version
-  version: 3.4.13
+  version: 3.5.3
 platform: ruby
 authors:
 - Michael Bostock
@@ -12,7 +12,7 @@ authors:
 autorequire: 
 bindir: bin
 cert_chain: []
-date: 2014-10-29 00:00:00.000000000 Z
+date: 2015-01-05 00:00:00.000000000 Z
 dependencies:
 - !ruby/object:Gem::Dependency
   name: railties
@@ -92,7 +92,6 @@ files:
 - lib/d3_rails.rb
 - lib/d3_rails/engine.rb
 - lib/d3_rails/version.rb
-- tasks/gem.thor
 homepage: https://github.com/logical42/d3_rails
 licenses:
 - MIT
