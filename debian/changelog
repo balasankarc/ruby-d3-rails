@@ -1,4 +1,10 @@
-ruby-d3-rails (3.4.13+dfsg-2) UNRELEASED; urgency=medium
+ruby-d3-rails (3.5.3+dfsg-1) unstable; urgency=medium
+
+  * Upstream update
+
+ -- Balasankar C <balasankarc@autistici.org>  Fri, 23 Jan 2015 13:06:07 +0530
+
+ruby-d3-rails (3.4.13+dfsg-2) unstable; urgency=medium
 
   [ Balasankar C ]
   * Patching asset location
