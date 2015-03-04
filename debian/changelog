@@ -1,3 +1,9 @@
+ruby-d3-rails (3.5.5+dfsg-1) experimental; urgency=medium
+
+  * Upstream update
+
+ -- Balasankar C <balasankarc@autistici.org>  Wed, 04 Mar 2015 21:15:40 +0530
+
 ruby-d3-rails (3.5.3+dfsg-1) unstable; urgency=medium
 
   * Upstream update
