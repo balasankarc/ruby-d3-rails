@@ -1,7 +1,7 @@
 --- !ruby/object:Gem::Specification
 name: d3_rails
 version: !ruby/object:Gem::Version
-  version: 3.5.5
+  version: 3.5.6
 platform: ruby
 authors:
 - Michael Bostock
@@ -12,7 +12,7 @@ authors:
 autorequire: 
 bindir: bin
 cert_chain: []
-date: 2015-02-15 00:00:00.000000000 Z
+date: 2015-07-17 00:00:00.000000000 Z
 dependencies:
 - !ruby/object:Gem::Dependency
   name: railties
